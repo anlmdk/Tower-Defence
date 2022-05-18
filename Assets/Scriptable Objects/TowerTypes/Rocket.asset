@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e9f568a4364417998f3f26880b866d, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  towerName: Rocket
+  towerLevel1: {fileID: 3087588496164916097, guid: 852668250fdda47e88e38fb60c55c42c,
+    type: 3}
+  towerLevel2: {fileID: 1687794794435430, guid: d27f6679851c34749ae69788eccdf5bf,
+    type: 3}
+  towerLevel3: {fileID: 1139903933978922, guid: 6ba60f4aca23b4104b6b59612a245cc3,
+    type: 3}
+  towerConstractionPrice: 45
+  towerUpgrade1Price: 60
+  towerUpgrade2Price: 75
+  tower1SellPrice: 45
+  tower2SellPrice: 90
+  tower3SellPrice: 160

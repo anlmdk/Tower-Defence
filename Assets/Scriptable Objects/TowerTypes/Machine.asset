@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e9f568a4364417998f3f26880b866d, type: 3}
+  m_Name: Machine
+  m_EditorClassIdentifier: 
+  towerName: Machine
+  towerLevel1: {fileID: 7629282687308043561, guid: 9bfda4361800245298daa2d17322ff14,
+    type: 3}
+  towerLevel2: {fileID: 1498458980781738, guid: 03d62e936397d4314864ca45f89016b9,
+    type: 3}
+  towerLevel3: {fileID: 1048612225750864, guid: 4c8e6569a85a64ba4b2c7687a7fa0a04,
+    type: 3}
+  towerConstractionPrice: 25
+  towerUpgrade1Price: 30
+  towerUpgrade2Price: 35
+  tower1SellPrice: 15
+  tower2SellPrice: 40
+  tower3SellPrice: 75

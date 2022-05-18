@@ -1,0 +1,72 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/inan/Desktop/Game Files/Tower Defence
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49305
+Successfully changed project path to: /Users/inan/Desktop/Game Files/Tower Defence
+/Users/inan/Desktop/Game Files/Tower Defence
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f1 (5e502cb56e17)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/inan/Desktop/Game Files/Tower Defence/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-21 10:21:33.675 Unity[917:15515] MStar Demo preferred device: Intel Iris Graphics (low power)
+2021-08-21 10:21:33.675 Unity[917:15515] Metal devices available: 1
+2021-08-21 10:21:33.675 Unity[917:15515] 0: Intel Iris Graphics (low power)
+2021-08-21 10:21:33.677 Unity[917:15515] Using device Intel Iris Graphics (low power)
+Initializing Metal device caps: Intel Iris Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56917
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.1.12f1/2020.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.029390 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 49.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10769ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1850ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1086ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (374ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (304ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.782427 seconds.
